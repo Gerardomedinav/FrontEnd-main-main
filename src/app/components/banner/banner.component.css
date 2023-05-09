@@ -62,4 +62,14 @@ img{
           border-color: transparent;
         }
       }
-  
+  /*Estilo de la foto de perfil*/
+@media (max-width: 412px)
+{
+
+h1.bienvenida {
+    top: 557px !important;
+    font-size: 12px !important;
+}
+
+
+}
