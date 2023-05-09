@@ -9,6 +9,7 @@ div{
 h1{
     display: flex;
     justify-content: center;
+    font-size: large;
     color: rgb(3, 3, 73);
     font-size: large;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

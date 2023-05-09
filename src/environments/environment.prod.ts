@@ -10,5 +10,5 @@ export const environment = {
     measurementId: 'G-JB405C08P2',
   },
   production: true,
-  URL: 'http://localhost:8080/'
+  URL: 'https://backend-mg.onrender.com/'
 };

@@ -15,6 +15,16 @@ h3#titulo{
 
 
 /*Estilo de la foto de perfil*/
+@media (mim-width: 768px){
+#fotodeperfil {
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px gray;
+    left: 17.5%;
+    top: 25rem;
+}
+}
 @media (min-width: 667px){
     #fotodeperfil{
         position: absolute;
