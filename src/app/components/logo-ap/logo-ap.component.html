@@ -1,0 +1,71 @@
+<div class="row">
+    <div class="container">
+        <div class="logo">
+            <a href="https://www.argentina.gob.ar/produccion/transformacion-digital-y-economia-del-conocimiento/argentina-programa"
+                target="_blank">
+                <img src="../../../assets/APLogo.png" id="logoAp"
+                    alt="Imagen de Argentina programa, enlace a la pagina">
+            </a>
+        </div>
+        <div class="redes">
+            <a href="https://www.Instagram.com/polirrubros_codigo_urbano2020" target="_blank">
+                <img src="../../../assets/instagram.png" id="icon-instagram" alt="icono Instagram link ">
+            </a>
+            <a href="https://mobile.twitter.com/germedi83" target="_blank">
+                <img src="../../../assets/twitter.png" id="icon-twitter" alt="icono Twitter link">
+            </a>
+            <a href="https://wwww.facebook.com/gerardomedinav" target="_blank">
+                <img src="../../../assets/facebook.png" id="icon-facebook" alt="icono facebook link">
+            </a>
+            <a href="https://github.com/Gerardomedinav" target="_blank">
+                <span class="logogithub">
+                    <img src="../../../assets/github.png" id="icon-github" alt="icono github link">
+                </span>
+            </a>
+            <a href="https://www.linkedin.com/in/gerardo-medina-villalba-9b658a261/" target="_blank">
+                <span class="linkedin">
+                    <img src="../../../assets/linkedin.png" id="icon-github" alt="icono github link">
+                </span>
+            </a>
+            <button class="btn btn-primary" type="button" (click)="login()" *ngIf="!isLogged"
+                title="Presione para Ingresar">
+                Login
+            </button>
+            <button class="btn btn-primary" type="button" (click)="onLogOut()" *ngIf="isLogged"
+                title="Presione para Ingresar">
+                Cerrar Sección
+            </button>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid" id="menu_bot">
+            <a class="navbar-brand"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#acercade">Acerca de mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experiencia1">Experiencia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#educacion1">Educación</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Hard & Soft skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos1">Proyectos</a>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+</div>

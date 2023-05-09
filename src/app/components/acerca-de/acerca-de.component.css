@@ -1,0 +1,65 @@
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #a9cef7;
+    text-align: center;
+    
+}
+h3#titulo{
+    color: rgb(3, 3, 73);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+/*Estilo de la foto de perfil*/
+@media (min-width: 667px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        left: 17.5%;
+        top: 43rem;
+    }
+}
+p{
+    color: rgb(3, 3, 73);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(max-width: 375px){
+    img#fotodeperfil{
+        position: absolute;
+        width: 50%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px grey;
+        top: 44rem !important;
+        left: 26%
+    }
+}
+@media (max-width: 668px){
+#fotodeperfil {
+    position: absolute;
+    width: 15%;
+    border-radius: 100%;
+    box-shadow: 3px 3px 3px grey;
+    left: 17.5%;
+    top: 342px;
+}
+}
+
+
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+    margin-top: 30%;
+}
+
+img:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5)
+}

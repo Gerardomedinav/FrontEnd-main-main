@@ -1,0 +1,29 @@
+
+.row{
+    padding: 20px;
+    box-shadow: 2px -2px 5px #999 ;
+}
+div{
+    background-color: #a9cef7;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(3, 3, 73);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+} 
+h3{
+    display: inline;
+    
+}
+button{
+    margin: 15px;
+}
+div#educacion{
+display: flex;
+flex-direction: column;
+margin-left: 20px;
+box-shadow: 0px -2px 0px #f7f4f4;
+}

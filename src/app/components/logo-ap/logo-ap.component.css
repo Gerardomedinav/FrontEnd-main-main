@@ -1,0 +1,101 @@
+#logoAp{
+    width: 150px;
+    height: auto;
+    margin: 2vh;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    justify-content: space-between;
+    border-radius: 10%;
+}
+img{
+    width: 40px;
+    margin: 15px;
+}
+img{
+    width: 40px;
+    margin: 15px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+}
+
+button {
+    
+    --darkreader-bg--bs-btn-bg: transparent;
+    --darkreader-border--bs-btn-border-color: #eaedf1;
+    --darkreader-bg--bs-btn-hover-bg: aqua; 
+    --darkreader-border--bs-btn-hover-border-color: #eaedf1;
+    margin-right: 0.5rem;
+   border-color: #eaedf1;
+   background-color: transparent;
+}
+button:hover {
+    background-color: aqua;
+    
+    transform: translateY(-10px);
+    border-color: #eaedf1;
+}
+div.redes img:hover {
+    background-color: aqua;
+    border-radius: 100%;
+    transform: translateY(-10px);
+    border-color: #eaedf1;
+}  
+div.logo img:hover{
+    background-color: aqua;
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0,0,o,0.2);
+
+}
+
+@media (max-width: 575px) {
+    .container{
+        flex-direction: column;
+    }
+    .redes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes img{
+        margin: 0.2em;
+    }
+    .btn-primary{
+      margin: 15px;
+
+    }
+}
+
+
+ 
+div.logo img:hover{
+    background-color: aqua;
+    transform: translateY(-10px);
+    box-shadow: 0 12px 16px rgba(0,0,o,0.2);
+}
+/* ============================= menu bot ====================== */
+
+#menu_bot { list-style: none; display:inline-block; white-space:nowrap;  padding: 0; margin: 15px;}
+#menu_bot li { list-style: none; display: inline-block; position:relative;  white-space:nowrap; margin: 0 25px;}
+
+#menu_bot  li  a{ display:block; height:100%; text-decoration:none; position:relative; font-family:'New Rocker'; font-weight: 400; font-size: 20px; color: #cfcdcb; line-height: 30px;}
+#menu_bot li.active  a, #menu_bot  li  a:hover, #menu_bot  li  a:focus{color: #d3c194; text-decoration: none;}
+
+
+div#navbarNavDropdown.navbar-collapse.collapse.show {
+    position: absolute !important;
+    z-index: 3;
+    background-color: rgba(20, 86, 207, 0.979);
+    left: 6.5rem;
+}
+button.navbar-toggler{
+    left: 10.7rem !important;
+    position: absolute !important;
+}
+.navbar-toggler-icon {
+
+    background-color: rgb(248, 248, 247) !important;
+}

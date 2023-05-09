@@ -1,0 +1,31 @@
+.row{
+    padding: 20px;
+    box-shadow: 2px -2px 5px #999 ;
+}
+div{
+    background: #64a8f0;
+}
+h1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+} 
+
+h3{
+    display: inline;
+}
+div#experiencia{
+    margin-left: 20px;
+
+    box-shadow: 0px -2px 0px #f7f4f4;
+    left: 15px;
+}
+button{
+    margin: 15px;
+}
+div#desc{
+    color: rgb(7, 7, 70);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

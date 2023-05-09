@@ -1,0 +1,39 @@
+<div class="row" id="proyectos1">
+    <h1 data-aos="fade-up" >Proyectos realizados</h1>
+    <div   data-aos="fade-up"  class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevoproyecto" *ngIf="isLogged">
+            Nuevo Proyecto
+        </button>
+    </div>
+
+    <div data-aos="fade-up"  class="col lg 1"></div>
+    <div  data-aos="fade-up" class="col-lg-11">
+
+        <div data-aos="fade-up"  id="experiencia" *ngFor="let Proyecto of proyecto">
+
+            <h2 data-aos="fade-up"  >{{Proyecto.nombreP}}</h2>
+
+            <h3 data-aos="fade-up" >{{Proyecto.descripcionP}}</h3>
+            <p data-aos="fade-up" >
+                Enlace: Repositorio del Github
+                <a href={{Proyecto.linkP}}> del Proyecto </a>
+
+            </p>
+            <div data-aos="fade-up" class="col-sm-12 col-md-3 col-lg-3 offset-md-1 offset-lg-1 parte2">
+                <a  href={{Proyecto.linkP}} target="_blank" data-aos="fade-left">
+                    <img  src={{Proyecto.imgP}} class="img-fluid img-proyecto" data-aos="fade-left">
+                </a>
+            </div>
+            <div *ngIf="isLogged">
+                <button class="btn btn-light" routerLink="/editProyecto/{{Proyecto.id}}">
+                    <i class="bi bi-pencil-fill"></i> EDITAR</button>
+
+                <button class="btn btn-danger" (click)="delete(Proyecto.id)">
+                    <i class=" bi bi-trash-fill"></i> BORRAR</button>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

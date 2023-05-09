@@ -1,0 +1,28 @@
+<div class="row" id="experiencia1">
+    <h1 data-aos="fade-up">Experiencia laboral</h1>
+    <div data-aos="fade-up" class="col-lg-2">
+        <button type="button" class="btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+            Nueva Experiencia
+        </button>
+    </div>
+
+    <div class="col lg 1"></div>
+    <div class="col-lg-11">
+      
+                <div data-aos="fade-up" id="experiencia" *ngFor="let Experiencia of expe">
+                    
+                        <h2 data-aos="fade-up">{{Experiencia.nombreE}}</h2>
+                    
+                    <div data-aos="fade-up" id="desc">{{Experiencia.descripcionE}}</div>
+                    <div data-aos="fade-up" *ngIf="isLogged">
+                        <button class="btn btn-light" routerLink="/editexp/{{Experiencia.id}}">
+                            <i class="bi bi-pencil-fill"></i> EDITAR</button>
+                    
+                        <button class="btn btn-danger" (click)="delete(Experiencia.id)">
+                            <i class="bi bi-trash-fill"></i> BORRAR</button>
+                       
+                </div>
+          
+    </div>
+
+</div>
